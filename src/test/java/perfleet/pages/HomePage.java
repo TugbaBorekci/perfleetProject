@@ -22,9 +22,6 @@ public class HomePage {
     @FindBy(xpath = "//*[@id='login-form']/fieldset/div[1]/div")
     public WebElement invalidUsernameOrPassword;
 
-    @FindBy(xpath = "//a[@href=\"javascript: void(0);\"]")
-    public WebElement displayedUsername;
-
     @FindBy(css = "li a.dropdown-toggle")
     public WebElement userProfile;
 
