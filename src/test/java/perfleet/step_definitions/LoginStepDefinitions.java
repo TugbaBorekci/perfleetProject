@@ -75,6 +75,7 @@ public class LoginStepDefinitions {
 
     @Then("The user sees 'Invalid username or password'")
     public void the_user_sees_invalid_username_or_password() {
+
         homePage.invalidUsernameOrPassword.isDisplayed();
     }
 

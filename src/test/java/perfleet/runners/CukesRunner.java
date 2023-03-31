@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" ,
         glue = "perfleet/step_definitions",
         dryRun = false,
-        tags ="",
+        tags ="@PER10-389",
         publish = false
 
 
