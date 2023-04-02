@@ -20,7 +20,7 @@ public class HomePage {
     public WebElement dashboard;
 
     @FindBy(xpath = "//*[@id='login-form']/fieldset/div[1]/div")
-    public WebElement invalidUsernameOrPassword;
+    public WebElement invalidUsernameOrPassword;//warning message
 
     @FindBy(css = "li a.dropdown-toggle")
     public WebElement userProfile;
